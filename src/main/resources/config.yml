@@ -1,0 +1,21 @@
+mysql:
+  ip: 'localhost'
+  port: '3306'
+  database: 'limboauth_db'
+  user: 'user'
+  password: 'password'
+  players-field: 'LOWERCASENICKNAME'
+  table: 'SOCIAL'
+messages:
+  reward:
+    reward_ok: "&c&lНАГРАДЫ &8◦ &fВы получили награду за привязку аккаунта в размере &c100 &fшайников!"
+    reward_null: "&c&lНАГРАДЫ &8◦ &fВы не привязали аккаунт к социальной сети."
+    reward_received: "&c&lНАГРАДЫ &8◦ &fВы уже забрали награду за привязку аккаунта."
+give-reward:
+  broadcast-reward:
+    - "&c╔"
+    - "&c║ &c%player% &fполучил награду за привязку аккаунта к социальной сети!"
+    - "&c║ &fХотите также? Пропишите &c/socialreward"
+    - "&c╚"
+  commands:
+    - "p give %player% 100"

@@ -1,0 +1,6 @@
+name: fmSocialReward
+version: '${project.version}'
+main: ru.feymer.fmsocialreward.FmSocialReward
+authors: [FeyMer]
+api-version: 1.13
+website: vk.com/feymer31
