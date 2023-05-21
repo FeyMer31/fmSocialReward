@@ -6,7 +6,7 @@ mysql:
   user: 'user' #Пользователь
   password: 'password' #Пароль
   players-field: 'LOWERCASENICKNAME' #Поле, где хранятся сами ники привязанных аккаунтов
-  table: 'SOCIAL' #Таблица с привязанными аккаунтами
+  table: 'SOCIAL' #Таблица, где если поле, в котором хранятся ники привязанных аккаунтов
 #Сообщения плагина
 messages:
   reward:
