@@ -34,8 +34,6 @@ public final class FmSocialReward extends JavaPlugin implements Listener {
         getLogger().info("Плагин включен!");
         saveDefaultConfig();
         Bukkit.getPluginManager().registerEvents(this, this);
-        this.checkPlayer("TestNicknameForCheckDatabaseConnection");
-
     }
 
     public boolean checkPlayer(String name) {
